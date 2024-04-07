@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix
 
 # Load the data
-df = pd.read_excel('/Users/jmlz_rp/Documents/SistemasIA/Parcial-Iris/iris3Dplot/Proyectofinal/ProyectoFinalMLP-Julian-JoseM/A-wos_scopus.xlsx')
+df = pd.read_excel('A-wos_scopus.xlsx')
 
 st.title('MLP Scientometric Recommendation')
 
@@ -79,8 +79,8 @@ import pandas as pd
 import plotly.express as px
 
 # Load the data
-original = pd.read_excel('/Users/jmlz_rp/Documents/SistemasIA/Parcial-Iris/iris3Dplot/Proyectofinal/ProyectoFinalMLP-Julian-JoseM/A-wos_scopus.xlsx')
-df = pd.read_excel('/Users/jmlz_rp/Documents/SistemasIA/Parcial-Iris/iris3Dplot/Proyectofinal/ProyectoFinalMLP-Julian-JoseM/A-wos_scopus.xlsx')
+original = pd.read_excel('A-wos_scopus.xlsx')
+df = pd.read_excel('A-wos_scopus.xlsx')
 
 st.title('EDA')
 
