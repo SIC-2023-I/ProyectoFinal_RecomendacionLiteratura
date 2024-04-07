@@ -1,0 +1,4 @@
+streamlit == 0.79.0
+scikitlearn == 0.24.1
+openpyxl == 3.0.7
+pandas == 1.2.3

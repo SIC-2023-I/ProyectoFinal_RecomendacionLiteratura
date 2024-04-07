@@ -14,20 +14,5 @@ python3 -m streamlit run app.py
 Tener presente tener instaladas las dependencias principales
 
 ```py
-pip install plotly
-```
-
-
-```py
-pip install scikit-learn
-```
-
-
-```py
-pip install streamlit
-```
-
-
-```py
-pip install openpyxl
+pip install streamlit openpyxl scikit-learn plotly
 ```
